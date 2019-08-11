@@ -1,4 +1,4 @@
-// const isProduction = location.host === 'floatplane.io' ? true : false;
+// const isProduction = location.host === 'moovin.rentals' ? true : false;
 // const environment = isProduction ? 'production' : 'development';
 
 // Fire page view to Google Analytics

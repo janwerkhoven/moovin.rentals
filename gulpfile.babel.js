@@ -35,8 +35,8 @@ function html() {
       nunjucksRender({
         path: ["src/html"],
         data: {
-          name: "Floatplane",
-          url: "https://floatplane.dev/",
+          name: "Moovin Rentals",
+          url: "https://moovin.rentals/",
           language: "en",
           themeColour: "#ffff00",
           googleSiteVerification: "XXX"

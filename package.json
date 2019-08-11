@@ -1,13 +1,13 @@
 {
-  "name": "floatplane.dev",
+  "name": "moovin.rentals",
   "version": "1.0.0",
-  "homepage": "https://floatplane.dev/",
+  "homepage": "https://moovin.rentals/",
   "description": "Website of a team of programmers / engineers in Melbourne, Australia",
-  "repository": "git@github.com:janwerkhoven/floatplane.dev.git",
-  "bugs": "https://github.com/janwerkhoven/floatplane.dev/issues",
+  "repository": "git@github.com:janwerkhoven/moovin.rentals.git",
+  "bugs": "https://github.com/janwerkhoven/moovin.rentals/issues",
   "contributors": [
-    "Jan Werkhoven <jw@floatplane.dev> (https://github.com/janwerkhoven)",
-    "Richard Verheyen <rv@floatplane.dev> (https://github.com/richardverheyen)"
+    "Jan Werkhoven <jw@moovin.rentals> (https://github.com/janwerkhoven)",
+    "Richard Verheyen <rv@moovin.rentals> (https://github.com/richardverheyen)"
   ],
   "license": "UNLICENSED",
   "private": true,

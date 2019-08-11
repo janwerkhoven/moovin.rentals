@@ -2,16 +2,20 @@
   #hero {
     height: 100vh;
     width: 100vw;
-    background: #222;
-    color: #fff;
+    background: #563946;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    code {
+    background: #631242;
+    background: radial-gradient(circle, #631242 0%, #460d2f 100%);
+    p {
       display: block;
       width: 340px;
       margin-bottom: 20px;
+      color: #ffba5b;
+      font-size: 18px;
+      line-height: 160%;
     }
   }
 }

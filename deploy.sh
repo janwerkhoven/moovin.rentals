@@ -11,8 +11,8 @@ echo "Deploying:"
 echo $branch
 echo $revision
 echo "----------"
-echo "scp install.sh deploy@server-singapore.nabu.io:/var/www/floatplane.dev"
-scp install.sh deploy@server-singapore.nabu.io:/var/www/floatplane.dev
+echo "scp install.sh deploy@server-singapore.nabu.io:/var/www/moovin.rentals"
+scp install.sh deploy@server-singapore.nabu.io:/var/www/moovin.rentals
 echo "----------"
-echo 'ssh deploy@server-singapore.nabu.io "/var/www/floatplane.dev/install.sh $branch $revision"'
-ssh deploy@server-singapore.nabu.io "/var/www/floatplane.dev/install.sh $branch $revision"
+echo 'ssh deploy@server-singapore.nabu.io "/var/www/moovin.rentals/install.sh $branch $revision"'
+ssh deploy@server-singapore.nabu.io "/var/www/moovin.rentals/install.sh $branch $revision"

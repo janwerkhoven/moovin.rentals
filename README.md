@@ -1,25 +1,25 @@
-# Garo VIP
+# Moovin Rentals
 
 #### What
 
-The [website](https://garo.vip) of a high-end luxury travel agent in Melbourne, Australia.
+The [website](https://moovin.rentals) of a real estate investment group in Melbourne, Australia.
 
 #### Highlights
 
 - Built with Gulp, Nunjucks (HTML), Dart SASS (CSS) and vanilla JS
 - Served on SSD Ubuntu Nginx servers with HTTP2 and HTTPS encryption
-- Code by [Reto Garo](https://github.com/retogaro)
+- Code by [Jan Werkhoven](https://github.com/janwerkhoven)
 
 #### Get in touch
 
-Reto - <a href="mailto:reto@garo.vip">reto@garo.vip</a>  
-
+Jan - <a href="mailto:jw@moovin.rentals">jw@moovin.rentals</a>
+Shuwen - <a href="mailto:jw@moovin.rentals">sw@moovin.rentals</a>
 
 #### Usage
 
 ```
-git clone git@github.com:janwerkhoven/reto.vip.git
-cd garo.vip
+git clone git@github.com:janwerkhoven/moovin.rentals.git
+cd moovin.rentals
 yarn install
 gulp serve
 open http://localhost:9000
@@ -27,5 +27,4 @@ open http://localhost:9000
 
 ---
 
-**Garo VIP**  
-High-end luxury travel
+_Moovin Rentals_
