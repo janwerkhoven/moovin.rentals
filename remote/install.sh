@@ -18,8 +18,8 @@ echo "Path: $PWD"
 echo "Branch: $BRANCH"
 echo "Revision: $REVISION"
 echo "----------"
-echo "cd /var/www/moovin.rentals"
-cd /var/www/moovin.rentals
+echo "cd /var/www/reddust.org.au"
+cd /var/www/reddust.org.au
 echo "----------"
 echo "git checkout $BRANCH -f"
 git checkout $BRANCH -f
