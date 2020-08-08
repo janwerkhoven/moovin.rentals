@@ -33,4 +33,10 @@
   "engines": {
     "yarn": ">= 1.0.0"
   },
+  "scripts": {
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "setup": "remote/setup.sh",
+    "deploy": "remote/deploy.sh"
+  }
 }
