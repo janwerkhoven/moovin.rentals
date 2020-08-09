@@ -9,12 +9,14 @@ on:
 jobs:
   test:
     name: Test
+    runs-on: ubuntu-latest
     steps:
       - 'echo "TODO"'
+
   deploy:
     name: Deploy
-    needs: test
     runs-on: ubuntu-latest
+    needs: test
     env:
       PRIVATE_KEY: ${{secrets.PRIVATE_KEY}}
     steps:
