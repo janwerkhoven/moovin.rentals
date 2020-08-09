@@ -9,10 +9,7 @@ domain=moovin.rentals
 repo=git@github.com:janwerkhoven/moovin.rentals.git
 
 echo "----------"
-echo "Setting up remote server for:"
-echo $user@$server
-echo $domain
-echo $repo
+echo "Setting up $domain on server $server"
 echo "----------"
 
 (
