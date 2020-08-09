@@ -11,17 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PRIVATE_KEY: ${{secrets.PRIVATE_KEY}}
-      # PUBLIC_KEY: ${{secrets.PUBLIC_KEY}}
 
     steps:
       - uses: actions/checkout@v2
       - run: mkdir ~/.ssh
       - run: 'echo "$PRIVATE_KEY" > ~/.ssh/id_rsa'
-      # - run: 'echo "$PUBLIC_KEY" > ~/.ssh/id_rsa.pub'
-      - run: ssh-keyscan -H sydney.floatplane.dev > ~/.ssh/known_hosts
+      # - run: ssh-keyscan -H sydney.floatplane.dev > ~/.ssh/known_hosts
       - run: chmod 0755 ~/.ssh/
       - run: chmod 600 ~/.ssh/id_rsa
-      # - run: chmod 600 ~/.ssh/id_rsa.pub
-      - run: chmod 644 ~/.ssh/known_hosts
+      # - run: chmod 644 ~/.ssh/known_hosts
       - run: eval "$(ssh-agent)"
       - run: remote/deploy.sh
