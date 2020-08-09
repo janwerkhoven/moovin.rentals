@@ -11,7 +11,8 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - 'echo "TODO"'
+      - uses: actions/checkout@v2
+      - run: 'echo "TODO"'
 
   deploy:
     name: Deploy
