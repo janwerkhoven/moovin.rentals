@@ -1,4 +1,4 @@
-name: CI
+name: Continuous Deployment
 
 on:
   push:
@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PRIVATE_KEY: ${{secrets.PRIVATE_KEY}}
-      PUBLIC_KEY: ${{secrets.PUBLIC_KEY}}
+      # PUBLIC_KEY: ${{secrets.PUBLIC_KEY}}
 
     steps:
       - uses: actions/checkout@v2
       - run: mkdir ~/.ssh
       - run: 'echo "$PRIVATE_KEY" > ~/.ssh/id_rsa'
-      - run: 'echo "$PUBLIC_KEY" > ~/.ssh/id_rsa.pub'
+      # - run: 'echo "$PUBLIC_KEY" > ~/.ssh/id_rsa.pub'
       - run: ssh-keyscan -H sydney.floatplane.dev > ~/.ssh/known_hosts
       - run: chmod 0755 ~/.ssh/
       - run: chmod 600 ~/.ssh/id_rsa
