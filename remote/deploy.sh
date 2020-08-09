@@ -16,5 +16,5 @@ echo "----------"
 (
   set -x
   scp -i ~/.ssh/$user@$server remote/deploy-remote.sh $user@$server:~/
-  ssh -i ~/.ssh/$user@$server -t $user@$server "~/deploy-remote.sh $domain; rm -f ~/deploy-remote.sh"
+  ssh -i ~/.ssh/$user@$server $user@$server "~/deploy-remote.sh $domain; rm -f ~/deploy-remote.sh"
 )
